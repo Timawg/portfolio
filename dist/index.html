@@ -1,0 +1,135 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Tim Gunnarsson, iOS software engineer in Stockholm. Career highlights and a closer look at Tellus, a world map and travel guide for iPhone and iPad.">
+  <meta name="theme-color" content="#f5f1e8">
+  <title>Tim Gunnarsson · iOS Software Engineer</title>
+  <link rel="icon" href="assets/mark.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="styles.css">
+  <script src="site.js" defer></script>
+</head>
+<body id="top">
+  <a class="skip" href="#main">Skip to content</a>
+  <header class="masthead wrap">
+    <a class="wordmark" href="#top" aria-label="Tim Gunnarsson, home">
+      <svg viewBox="0 0 40 40" aria-hidden="true"><use href="assets/mark.svg#mark"></use></svg>
+      <span>Tim Gunnarsson</span>
+    </a>
+    <nav aria-label="Main navigation">
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact <span aria-hidden="true">↗</span></a>
+    </nav>
+  </header>
+
+  <main id="main" class="wrap">
+    <section class="hero" aria-labelledby="intro-title">
+      <div class="hero-copy">
+        <p class="eyebrow"><span class="index-dot"></span> Stockholm, Sweden</p>
+        <h1 id="intro-title">Tim Gunnarsson<span>.</span></h1>
+        <p class="hero-role">iOS software engineer</p>
+        <p class="hero-text">I build apps for Apple platforms. My work has taken me from food diaries and streaming to emergency services, with a focus on making complex apps easier to maintain.</p>
+        <a class="button" href="#experience">Explore my work <span aria-hidden="true">↓</span></a>
+      </div>
+      <a class="hero-project" href="#projects">
+        <div class="plate-top"><span>01 / Personal project</span><span>59° 20′ N &nbsp; 18° 04′ E</span></div>
+        <img src="assets/tellus-globe.svg" alt="" width="640" height="480" fetchpriority="high">
+        <div class="plate-bottom"><span>Tellus <small>World map for iOS</small></span><span class="plate-arrow" aria-hidden="true">↗</span></div>
+      </a>
+    </section>
+
+    <section class="section" id="experience" aria-labelledby="experience-title">
+      <header class="section-head">
+        <p class="eyebrow">01 / Career</p>
+        <h2 id="experience-title">Experience</h2>
+        <p>I started in quality assurance at Lifesum before moving into iOS engineering. I still use that testing background when I design features, review code, and investigate bugs.</p>
+      </header>
+      <div class="timeline">
+        <article class="role">
+          <p class="role-date"><time datetime="2025-04">Apr 2025</time> – <time datetime="2026-08">Aug 2026</time></p>
+          <div><h3>SOS Alarm</h3><p class="role-title">iOS Software Engineer · Assignment via Knowit</p></div>
+          <p>Led an incremental migration from MVC and UIKit to MVVM and SwiftUI. Rebuilt networking, introduced SQLite for static geodata, and set up automated builds and releases. After profiling MapKit, I moved defibrillator clustering to the backend.</p>
+        </article>
+        <article class="role">
+          <p class="role-date"><time datetime="2024-01">Jan 2024</time> – <time datetime="2024-08">Aug 2024</time></p>
+          <div><h3>Sveriges Radio</h3><p class="role-title">Software Engineer</p></div>
+          <p>Worked on public service media in a team that used mob programming across several platforms, including .NET on the backend.</p>
+        </article>
+        <article class="role">
+          <p class="role-date"><time datetime="2022-06">Jun 2022</time> – <time datetime="2023-10">Oct 2023</time></p>
+          <div><h3>Viaplay Group</h3><p class="role-title">iOS Software Engineer</p></div>
+          <p>Built streaming features for iOS and Apple TV with UIKit and SwiftUI. Worked with product and data teams on A/B tests and analytics for viewer retention.</p>
+        </article>
+        <article class="role">
+          <p class="role-date"><time datetime="2018-08">Aug 2018</time> – <time datetime="2022-06">Jun 2022</time></p>
+          <div><h3>Lifesum</h3><p class="role-title">iOS Software Engineer</p></div>
+          <p>Rewrote the food diary from Objective-C to Swift and replaced a third-party barcode scanner with an implementation using Apple Vision. Improved interface animations and perceived performance.</p>
+        </article>
+        <article class="role">
+          <p class="role-date"><time datetime="2015-09">Sep 2015</time> – <time datetime="2018-08">Aug 2018</time></p>
+          <div><h3>Lifesum</h3><p class="role-title">Quality Assurance Engineer</p></div>
+          <p>Owned testing for the iOS app before moving into development on the same product.</p>
+        </article>
+      </div>
+      <div class="toolkit">
+        <p class="eyebrow">Tools I work with</p>
+        <ul class="tags" aria-label="Technical skills">
+          <li>Swift</li><li>SwiftUI</li><li>UIKit</li><li>MapKit</li><li>Core Location</li><li>SQLite</li><li>Instruments</li><li>CI/CD</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section" id="projects" aria-labelledby="projects-title">
+      <header class="section-head">
+        <p class="eyebrow">02 / Side projects</p>
+        <h2 id="projects-title">Personal projects</h2>
+      </header>
+      <article class="project" aria-labelledby="tellus-title">
+        <div class="project-copy">
+          <p class="eyebrow">01 / iPhone &amp; iPad</p>
+          <h3 id="tellus-title">Tellus</h3>
+          <p>A world map and travel guide built with SwiftUI and MapKit. Pick a country for travel advice, visa requirements, weather, and local time. Switch on map layers to explore the activity and infrastructure around it.</p>
+          <ul class="tags" aria-label="Tellus technologies"><li>SwiftUI</li><li>MapKit</li><li>Geospatial data</li></ul>
+          <a class="project-link" href="https://github.com/Timawg/Tellus">View Tellus on GitHub <span aria-hidden="true">↗</span></a>
+        </div>
+        <div class="project-explorer">
+          <p class="eyebrow">Inside Tellus</p>
+          <details open>
+            <summary>Country guides</summary>
+            <p>Explore a country’s geography, energy, and economy alongside practical guidance on entry, health, and local laws. Country figures show their observation year and source.</p>
+          </details>
+          <details>
+            <summary>Live flights and infrastructure</summary>
+            <p>Follow aircraft in the visible map area, trace submarine cables to their landing points, or zoom in to see power lines and substations.</p>
+          </details>
+          <details>
+            <summary>Earth at night</summary>
+            <p>See the day–night boundary as it moves across the map. Tellus calculates it on the device and overlays the latest available NASA Black Marble imagery.</p>
+          </details>
+          <details>
+            <summary>GPS interference</summary>
+            <p>Browse daily GPSJAM maps that show areas where aircraft reported reduced navigation accuracy.</p>
+          </details>
+        </div>
+      </article>
+      <p class="credit">Globe illustration uses Natural Earth country boundaries.</p>
+    </section>
+
+    <section class="section contact" id="contact" aria-labelledby="contact-title">
+      <div>
+        <p class="eyebrow">03 / Contact</p>
+        <h2 id="contact-title">Get in touch</h2>
+        <p>Find me on GitHub as <span class="handle">Timawg</span>.</p>
+      </div>
+      <a class="button" href="https://github.com/Timawg">GitHub profile <span aria-hidden="true">↗</span></a>
+    </section>
+  </main>
+
+  <footer class="wrap footer">
+    <p>Tim Gunnarsson <span>·</span> Stockholm, Sweden</p>
+    <a href="#top">Back to top <span aria-hidden="true">↑</span></a>
+  </footer>
+</body>
+</html>
